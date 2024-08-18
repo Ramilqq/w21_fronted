@@ -4,7 +4,7 @@ import { postModule } from './postModule'
 export default createStore({
   state: {
     likes: 2,
-    isAuth: false
+    isAuth: false,
   },
   getters: {
     dobleLikes(state){

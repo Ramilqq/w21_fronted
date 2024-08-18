@@ -10,5 +10,5 @@ module.exports = defineConfig({
       })
       return definitions
     })
-  }
+  },
 })

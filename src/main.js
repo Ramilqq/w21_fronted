@@ -1,9 +1,11 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from './AppW21.vue'
 import router from './router'
 import store from './store'
 import components from './components/UI/index'
 import directives from './directives/index'
+//import plugins from './plugins/index.js'
+
 
 const app = createApp(App);
 
@@ -14,8 +16,8 @@ directives.v.forEach(directive => {
     app.directive(directive.name, directive);
 });
 
-
 app.use(store);
 app.use(router);
+//app.use(plugins);
 
 app.mount('#app');

@@ -6,6 +6,8 @@
 
 <script>
 import TestNavbar from '@/components/UI/TestNavbar.vue';
+
+
 export default {
     components:{
         TestNavbar

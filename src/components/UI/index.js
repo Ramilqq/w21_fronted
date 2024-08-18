@@ -5,5 +5,7 @@ import TestDialog from "./TestDialog.vue";
 import TestSelet from "./TestSelet.vue";
 
 export default {
-    ui: [TestButton, MyButton, TestInput, TestDialog,TestSelet]
+    ui: [TestButton, MyButton, TestInput, TestDialog,TestSelet,
+
+    ]
 }
